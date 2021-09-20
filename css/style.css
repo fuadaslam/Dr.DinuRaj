@@ -940,13 +940,13 @@ a:focus {
 
 .testimonial:before {
   width: 48%;
-  height: 150%;
+  height: 80%;
   top: 0;
   left: 0px;
   bottom: 30px;
   position: absolute;
   content: "";
-  background: url("../images/bg/banner.png") no-repeat 75% 75%;
+  background: url("../images/bg/banner.png") no-repeat 75% 10%;
 }
 
 .testimonial .slick-dots {
