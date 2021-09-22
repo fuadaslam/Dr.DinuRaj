@@ -7,7 +7,7 @@
     position: fixed;
     z-index: 99999;
     bottom: px;
-    right: 15px;
+    left:  15px;
     background-color: #d5d3e4;
     width: 0px;
     height: 0px;
@@ -39,7 +39,7 @@
   }
   
   #floating-ligar{
-    right: 20px; 
+    left: 20px; 
     bottom: 20px;  
     background-color: #2bff00;
     -webkit-animation: slide-ligar .75s forwards;
@@ -59,28 +59,28 @@
   
   @-webkit-keyframes slide-ligar {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 20px; 
+      left: 20px; 
       bottom: 100px;
     }
   }
   
   @keyframes slide-ligar {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 20px; 
+      left: 20px; 
       bottom: 100px;
     }
   }
   
   #floating-whatsapp{
-    right: 20px;
+    left: 20px;
     bottom: 20px;
     background-color: #182c3c;
     -webkit-animation: slide-whatsapp .75s forwards;
@@ -91,28 +91,28 @@
   
   @-webkit-keyframes slide-whatsapp {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 70px; 
+      left: 70px; 
       bottom: 70px;
     }
   }
   
   @keyframes slide-whatsapp {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 70px; 
+      left: 70px; 
       bottom: 70px;
     }
   }
   
   #floating-emergencia{
-    right: 20px;
+    left: 20px;
     bottom: 20px;
     background-color: #d00829;
     -webkit-animation: slide-emergencia .75s forwards;
@@ -123,22 +123,22 @@
   
   @-webkit-keyframes slide-emergencia {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 100px; 
+      left: 100px; 
       bottom: 20px;
     }
   }
   
   @keyframes slide-emergencia {
     0%{
-      right: 20px; 
+      left: 20px; 
       bottom: 20px;    	
     }
     100% { 
-      right: 100px; 
+      left: 100px; 
       bottom: 20px;
     }
   }
@@ -175,9 +175,9 @@
   }
   
   .fechaModal{
-    float: right;
+    float: left;
     margin-top: -20px;
-    margin-right: -20px;
+    margin-left: -20px;
     background: #0b08d8;
     border: none;
     color: #fff;
